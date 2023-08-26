@@ -1,0 +1,124 @@
+header {
+    background-image: url('/images/hero-shape.svg');
+    background-repeat: no-repeat;
+    height: 697px;
+}
+
+.header-top {
+    width: 100%;
+    height: 62px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.01);
+    box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.11);
+    color: #00000003;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.location-time {
+    display: flex;
+    width: 373px;
+    gap: 30px;
+}
+
+.email-telephone {
+    display: flex;
+    gap: 65px;
+    color: #355EFC;
+    justify-content: center;
+    align-items: center;
+}
+
+.time,
+.location,
+.email,
+.telephone {
+    font-family: Open Sans;
+    font-size: 14px;
+    font-weight: 400;
+    color:#355EFC;
+    margin-left: 5px;
+}
+
+.contact-details {
+    display: flex;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 97px;
+    margin-top: 46px;
+}
+
+nav a {
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 700;
+    text-decoration: none;
+    color: #355EFC;
+}
+
+nav {
+    gap: 15px;
+    display: flex;
+}
+.navigation-bar {
+    display: flex;
+    align-items: center;
+}
+
+
+.facebook-logo,
+.twitter-logo,
+.linkedin-logo {
+    position: absolute;
+    right: 12px;
+    top: 8px;
+}
+
+.logo-container {
+    display: flex;
+    margin-left: 61px;
+    margin-right: 76px;
+    gap: 10px;
+}
+
+.facebook-container,
+.twitter-container,
+.linkedin-container {
+    position: relative;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-left {
+    display: inline-flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.header-text {
+    color: #011A41;
+    font-family: Open Sans;
+    font-size: 80px;
+    font-weight: 700;
+    line-height: 96px;
+}
+
+.header-text-container {
+    width: 731px;
+}
+
+.header-middle {
+    display: flex;
+}
+
+.slider-image {
+    width: 715px;
+    height: 623px;
+    object-fit: contain;
+}
+
+

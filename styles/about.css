@@ -1,0 +1,9 @@
+.about-photo {
+    width: 559px;
+    height: 601px;
+    object-fit: cover;
+}
+
+.about-container {
+    display: flex;
+}
