@@ -9,7 +9,8 @@
     padding: 10px;
 }
 
-.explore-button {
+.explore-button,
+.read-more-button {
     border-radius: 10px;
     background:#355EFC;
     color: #F5F5F5;
@@ -20,3 +21,35 @@
     border: none;
     padding: 10px 25px;
 }
+
+.about-button {
+    padding: 10px 15px;
+    border-radius: 11px;
+    border: 1px solid #CAD2FC;
+    box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.36);
+    color: #355EFC;
+    font-family: Open Sans;
+    font-size: 16px;
+    font-weight: 400;
+    background-color: #F5F5F5
+}
+
+.choosing-button,
+.services-button {
+    background-color: #F5F5F5;
+    display: flex;
+    padding: 10px 15px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 11px;
+    border: 1px solid #CAD2FC;
+    box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.36);
+    color:  #355EFC;
+    font-family: Open Sans;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+
+
