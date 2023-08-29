@@ -11,3 +11,7 @@ body {
 .zero-margin {
     margin: 0;
 }
+
+.flex-direction-column {
+    flex-direction: column;
+}

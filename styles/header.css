@@ -89,8 +89,6 @@ nav {
 .twitter-container,
 .linkedin-container {
     position: relative;
-    justify-content: center;
-    align-items: center;
 }
 
 .header-left {
