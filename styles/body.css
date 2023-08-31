@@ -12,6 +12,13 @@ body {
     margin: 0;
 }
 
-.flex-direction-column {
-    flex-direction: column;
+.section-alignment {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.section-correction {
+    width: 100%;
+    background:  #355EFC;
 }
