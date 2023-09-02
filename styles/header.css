@@ -78,9 +78,8 @@ nav {
 
 .logo-container {
     display: flex;
-    margin-left: 61px;
-    margin-right: 76px;
     gap: 10px;
+    margin-left: 61px;
 }
 
 .facebook-container,
@@ -93,6 +92,30 @@ nav {
     display: inline-flex;
     flex-direction: column;
     gap: 25px;
+    margin-left: 80px;
+    position: relative;
+}
+
+.slider-button-left,
+.slider-button-right {
+    width: 76px;
+    height: 62px;
+}
+
+.slider-button-right {
+    position: absolute;
+    right: 0;
+    top: calc(50% + 23.5px);
+}
+
+.slider-button-left {
+    position: absolute;
+    left: 0;
+}
+
+.slider-button-left :hover,
+.slider-button-right :hover {
+    cursor: pointer;
 }
 
 .header-text {
@@ -108,16 +131,30 @@ nav {
 
 .header-middle {
     display: flex;
-}
-
-.slider-image {
-    width: 715px;
-    height: 623px;
-    object-fit: contain;
+    height: 400px;
+    align-items: center;
 }
 
 .header-top-correction {
     width: 100%;
     border-bottom: 1px solid rgba(0, 0, 0, 0.01);
     box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.11);
+}
+
+
+.slider {
+    position: relative;
+    height: 605px;
+}
+
+
+.slider-image {
+    width: 853px;
+    height: 100%;
+    object-fit: cover;
+    flex-shrink: 0;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    z-index: -1;
 }
