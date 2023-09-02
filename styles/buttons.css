@@ -54,7 +54,6 @@
 
 .submit-button {
     display: flex;
-    height: 49px;
     padding: 10px 25px;
     justify-content: center;
     align-items: center;
@@ -68,6 +67,7 @@
     font-weight: 700;
     line-height: 24px;
     border: none;
+    width: 619px;
 }
 
 

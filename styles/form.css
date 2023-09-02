@@ -1,5 +1,5 @@
 #form {
-    width: 719px;
+    width: 619px;
     padding: 50px;
     border-radius: 10px;
     border: 1px solid  #909DE2;
@@ -9,10 +9,15 @@
     gap: 20px;
 }
 
+#form h1 {
+    margin: 0;
+}
+
 .form-intro {
     display: flex;
     flex-direction: column;
     align-items: center;
+    gap: 20px;
 }
 
 form {
@@ -30,7 +35,7 @@ form {
 
 .input-field-one {
     display: flex;
-    height: 52px;
+    height: 22px;
     padding: 15px 1px 15px 10px;
     align-items: center;
     gap: 10px;
@@ -41,11 +46,35 @@ form {
 
 .input-field-two {
     display: flex;
-    height: 133px;
+    height: 103px;
     padding: 15px 1px 15px 10px;
     align-items: flex-start;
     gap: 10px;
     align-self: stretch;
     border-radius: 5px;
     border: 1px solid  #909DE2;
+}
+
+.contact-form-background-blue {
+    width: 100%;
+    height: 346px;
+    flex-shrink: 0;
+    background: var(--main-color, #355EFC);
+    position: absolute;
+    z-index: -1;
+}
+
+.contact-form-background-white {
+    width: 100%;
+    height: 346px;
+    flex-shrink: 0;
+    background: #FFF;
+    position: absolute;
+    z-index: -1;
+}
+
+.contact-form-container {
+    height: 692px;
+    display: flex;
+    align-items: end;
 }
