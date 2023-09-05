@@ -109,6 +109,10 @@
     border-left: 1px solid var(--button-stroke-color-1, #DEE2E6);
 }
 
+#story-horizontal-line {
+    visibility: hidden;
+}
+
 .passive {
     border-radius: 9px;
 }
