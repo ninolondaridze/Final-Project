@@ -1,3 +1,7 @@
+#services {
+    margin-top: 98px;
+}
+
 .services-choosing {
     display: flex;
     flex-direction: column;
@@ -185,7 +189,6 @@
     display: flex;
     align-items: center;
     margin-top: 50px;
-    margin-bottom: 90px;
     justify-content: space-between;
 }
 

@@ -117,7 +117,7 @@
     border-radius: 9px;
 }
 
-.story-container {
+#story-container {
     width: 517px;
     height: 186px;
     gap: 10px;
@@ -126,7 +126,7 @@
     justify-content: center;
 }
 
-.story-container p {
+#story-container p {
     color: var(--small-text-color, #555);
     font-family: Poppins;
     font-size: 16px;

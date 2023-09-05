@@ -1,3 +1,9 @@
+let storyContainer = document.getElementById('story-container');
+let missionFirstParagraph = document.createElement('p');
+missionFirstParagraph.innerHTHML = 'Diam dolor diam ipsum et tempor sit. Aliqu diam amet diam et eos labore. Clita erat ipsum et lorem et sit';
+
+
+
 let story = document.getElementById('story');
 let storyLine = document.getElementById('story-horizontal-line');
 

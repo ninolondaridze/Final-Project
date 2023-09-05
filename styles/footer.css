@@ -39,7 +39,7 @@
     font-family: Jost;
     font-size: 24px;
     font-weight: 700;
-    line-height: 29px; /* 120.833% */
+    line-height: 29px; 
 }
 
 .services-list-container,
@@ -146,4 +146,7 @@ border: none;
     background-color: #011A41;
 }
 
-
+.our-office-container a{
+    text-decoration: none;
+    color: #FFFFFF;
+}
