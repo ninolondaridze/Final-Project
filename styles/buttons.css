@@ -53,7 +53,7 @@
     font-weight: 400;
 }
 
-.submit-button {
+#submit-button {
     display: flex;
     padding: 10px 25px;
     justify-content: center;

@@ -24,3 +24,10 @@
     background: var(--main-color, #355EFC);
 }
 
+.financial-planning-container:hover{
+    cursor: pointer;
+}
+
+#submit-button:hover {
+    cursor: pointer;
+}

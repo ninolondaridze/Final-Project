@@ -68,3 +68,70 @@ cardThree.addEventListener('mouseout', function () {
 })
 
 
+
+let financialPlanningContainer1 = document.getElementById('financial-planning-container1');
+let financialPlanningIcon1 = document.getElementById('financial-planning-icon1');
+let financialPlanningText1 = document.getElementById('financial-planning1');
+
+financialPlanningContainer1.addEventListener('mouseover', function() {
+    financialPlanningContainer1.style.backgroundColor = '#355EFC';
+    financialPlanningIcon1.setAttribute('src', 'images/white_icon _menu_.svg');
+    financialPlanningText1.style.color = '#FFF';
+})
+
+financialPlanningContainer1.addEventListener('mouseout', function() {
+    financialPlanningContainer1.style.backgroundColor = '';
+    financialPlanningIcon1.setAttribute('src', 'images/🦆 icon _menu_.svg');
+    financialPlanningText1.style.color = '#011A41';
+})
+
+
+let financialPlanningContainer2 = document.getElementById('financial-planning-container2');
+let financialPlanningIcon2 = document.getElementById('financial-planning-icon2');
+let financialPlanningText2 = document.getElementById('financial-planning2');
+
+financialPlanningContainer2.addEventListener('mouseover', function() {
+    financialPlanningContainer2.style.backgroundColor = '#355EFC';
+    financialPlanningIcon2.setAttribute('src', 'images/white_icon _menu_.svg');
+    financialPlanningText2.style.color = '#FFF';
+})
+
+financialPlanningContainer2.addEventListener('mouseout', function() {
+    financialPlanningContainer2.style.backgroundColor = '';
+    financialPlanningIcon2.setAttribute('src', 'images/🦆 icon _menu_.svg');
+    financialPlanningText2.style.color = '#011A41';
+})
+
+
+let financialPlanningContainer3 = document.getElementById('financial-planning-container3');
+let financialPlanningIcon3 = document.getElementById('financial-planning-icon3');
+let financialPlanningText3 = document.getElementById('financial-planning3');
+
+financialPlanningContainer3.addEventListener('mouseover', function() {
+    financialPlanningContainer3.style.backgroundColor = '#355EFC';
+    financialPlanningIcon3.setAttribute('src', 'images/white_icon _menu_.svg');
+    financialPlanningText3.style.color = '#FFF';
+})
+
+financialPlanningContainer3.addEventListener('mouseout', function() {
+    financialPlanningContainer3.style.backgroundColor = '';
+    financialPlanningIcon3.setAttribute('src', 'images/🦆 icon _menu_.svg');
+    financialPlanningText3.style.color = '#011A41';
+})
+
+
+let financialPlanningContainer4  = document.getElementById('financial-planning-container4');
+let financialPlanningIcon4   = document.getElementById('financial-planning-icon4');
+let financialPlanningText4 = document.getElementById('financial-planning4');
+
+financialPlanningContainer4.addEventListener('mouseover', function() {
+    financialPlanningContainer4.style.backgroundColor = '#355EFC';
+    financialPlanningIcon4.setAttribute('src', 'images/white_icon _menu_.svg');
+    financialPlanningText4.style.color = '#FFF';
+})
+
+financialPlanningContainer4.addEventListener('mouseout', function() {
+    financialPlanningContainer4.style.backgroundColor = '';
+    financialPlanningIcon4.setAttribute('src', 'images/🦆 icon _menu_.svg');
+    financialPlanningText4.style.color = '#011A41';
+})

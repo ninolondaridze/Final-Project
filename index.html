@@ -261,21 +261,21 @@
            </div>
             <div class="services-main section-alignment">
                 <div class="financial-planning-main">
-                    <div class="financial-planning-container">
-                        <img src="images/🦆 icon _menu_.svg" alt="">
-                        <p class="financial-planning-text">Financial Planning</p>
+                    <div id="financial-planning-container1" class="financial-planning-container">
+                        <img id="financial-planning-icon1" src="images/🦆 icon _menu_.svg" alt="">
+                        <p id="financial-planning1" class="financial-planning-text">Financial Planning</p>
                     </div>
-                    <div class="financial-planning-container">
-                        <img src="images/🦆 icon _menu_.svg" alt="">
-                        <p class="financial-planning-text">Financial Planning</p>
+                    <div id="financial-planning-container2" class="financial-planning-container">
+                        <img id="financial-planning-icon2" src="images/🦆 icon _menu_.svg" alt="">
+                        <p id="financial-planning2"class="financial-planning-text">Financial Planning</p>
                     </div>
-                    <div class="financial-planning-container">
-                        <img src="images/🦆 icon _menu_.svg" alt="">
-                        <p class="financial-planning-text">Financial Planning</p>
+                    <div id="financial-planning-container3" class="financial-planning-container">
+                        <img id="financial-planning-icon3" src="images/🦆 icon _menu_.svg" alt="">
+                        <p id="financial-planning3"class="financial-planning-text">Financial Planning</p>
                     </div>
-                    <div class="financial-planning-container">
-                        <img src="images/🦆 icon _menu_.svg" alt="">
-                        <p class="financial-planning-text">Financial Planning</p>
+                    <div id="financial-planning-container4" class="financial-planning-container">
+                        <img id="financial-planning-icon4" src="images/🦆 icon _menu_.svg" alt="">
+                        <p id="financial-planning4" class="financial-planning-text">Financial Planning</p>
                     </div>
                 </div>
                 <div>
@@ -316,19 +316,35 @@
                     <button class="get-in-touch-button">Get In Touch</button>
                     <h1>Request A Call-Back</h1>
                 </div>
-                    <form action="">
+                    <form action="" id="form">
                         <div class="input-type-one">
-                            <input class="input-field-one" placeholder="Your Name" type="text" name="" id="">
-                            <input class="input-field-one" placeholder="Your Email" type="text" name="" id="">
+                            <div class="flex-column" >
+                                <input class="input-field-one" placeholder="Your Name" type="text" name="" id="name-input">
+                                <div class="error hidden"></div>
+                            </div>
+                            <div class="flex-column">
+                                <input id="email-input" class="input-field-one" placeholder="Your Email" type="email" name="">
+                                <div  id="email-error" class="error hidden">Please Enter Valid Email.</div>
+                            </div>
                         </div>
                         <div class="input-type-one">
-                            <input class="input-field-one" placeholder="Your Phone" type="text" name="" id="">
-                            <input class="input-field-one" placeholder="Your Subject" type="text" name="" id="">
+                            <div class="flex-column">
+                                <input id="phone-input" class="input-field-one" placeholder="Your Phone" type="text" name="phone" >
+                                <div id="phone-error" class="error hidden">Please Enter Valid Phone Number.</div>
+                            </div>
+                            <div class="flex-column">
+                                <input id="subject-input" class="input-field-one" placeholder="Your Subject" type="text" name="">
+                                <div id="subject-error" class="error hidden">Please Enter Valid Subject.</div>
+                            </div>
                         </div>
-                        <input class="input-field-two" placeholder="Message" type="text">
+                        <div class="flex-column">
+                            <input class="input-field-two" placeholder="Message" type="text">
+                            <div class="error hidden"></div>
+                        </div>
+
                     </form>
                     <div class="flex">
-                        <button class="submit-button">Submit Now</button>
+                        <input type="submit" id="submit-button">
                     </div>
             </div>
         </div>
