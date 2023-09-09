@@ -1,8 +1,9 @@
 let storyContainer = document.getElementById('story-container');
-let missionFirstParagraph = document.createElement('p');
-missionFirstParagraph.innerHTHML = 'Diam dolor diam ipsum et tempor sit. Aliqu diam amet diam et eos labore. Clita erat ipsum et lorem et sit';
 
 
+
+let sectionFirstParagraph = document.getElementById('section-one');
+let sectionSeconcParagraph = document.getElementById('section-two');
 
 let story = document.getElementById('story');
 let storyLine = document.getElementById('story-horizontal-line');
@@ -20,6 +21,8 @@ story.addEventListener('click', function() {
     story.classList.add('active');
     mission.classList.remove('active');
     vission.classList.remove('active');
+    sectionFirstParagraph.innerHTML = 'Tempor erat elitr rebum at clita. Diam dolor diam ipsum et tempor sit.Aliqu diam amet diam et eos labore.';
+    sectionSeconcParagraph.innerHTML = 'Diam dolor diam ipsum et tempor sit. Aliqu diam amet diam et eos labore. Clita erat ipsum et lorem et sit.';
 })
 
 mission.addEventListener('click', function() {
@@ -28,7 +31,9 @@ mission.addEventListener('click', function() {
     vissionLine.style.visibility = 'visible';
     story.classList.remove('active');
     mission.classList.add('active');
-    story.classList.remove('active');
+    vission.classList.remove('active');
+    sectionFirstParagraph.innerHTML = 'We aim to be the most respected financial services firm in the world.';
+    sectionSeconcParagraph.innerHTML = 'We save people money so they can live better.';
 })
 
 
@@ -39,4 +44,6 @@ vission.addEventListener('click', function() {
     story.classList.remove('active');
     mission.classList.remove('active');
     vission.classList.add('active');
+    sectionFirstParagraph.innerHTML = 'Create economic opportunity for every member of the global workforce.';
+    sectionSeconcParagraph.innerHTML = 'To help people throughout the world realize their full potential.';
 })

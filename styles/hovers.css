@@ -1,0 +1,26 @@
+.welcome-button:hover,
+.choosing-button:hover {
+    cursor: pointer;
+    background-color: #355EFC;
+    color: #F5F5F5;;
+}
+
+.explore-button:hover,
+.read-more-button:hover {
+    cursor: pointer;
+    border: 1px solid #FFF;
+    color: #355EFC;
+    background: none;
+}
+
+.explore-button, .second:hover {
+    border: 1px solid #355EFC;   
+}
+
+.card:hover {
+    cursor: pointer;
+    border-radius: 15px;
+    border: 1px solid var(--Icon-background, #909DE2);
+    background: var(--main-color, #355EFC);
+}
+
