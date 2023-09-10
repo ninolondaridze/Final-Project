@@ -1,6 +1,5 @@
+//changes style while clicking Story/Mission/Vission buttons
 let storyContainer = document.getElementById('story-container');
-
-
 
 let sectionFirstParagraph = document.getElementById('section-one');
 let sectionSeconcParagraph = document.getElementById('section-two');

@@ -1,7 +1,9 @@
+//style changes for card items mouseover/mouseout
 let cardOne = document.getElementById('card-one');
 let newIcon1 = document.getElementById('card-one-icon');
 let secondIcon1 = document.getElementById('read-more-icon1');
 let whiteVector1 = document.getElementById('white-card-vector1');
+
 
 cardOne.addEventListener('mouseover', function() {
     for (let i = 0; i < cardOne.children.length; i++ ) {
@@ -11,6 +13,7 @@ cardOne.addEventListener('mouseover', function() {
  secondIcon1.style.color = '#FFF';
  whiteVector1.setAttribute('src','images/white_arrow back_.svg');
 })
+
 
 cardOne.addEventListener('mouseout', function () {
     cardOne.children[1].style.color = '#011A41'; 
@@ -67,8 +70,7 @@ cardThree.addEventListener('mouseout', function () {
     newIcon3.setAttribute('src', 'images/card.svg');
 })
 
-
-
+//style changes for Financial Planning items mouseover/mouseout
 let financialPlanningContainer1 = document.getElementById('financial-planning-container1');
 let financialPlanningIcon1 = document.getElementById('financial-planning-icon1');
 let financialPlanningText1 = document.getElementById('financial-planning1');

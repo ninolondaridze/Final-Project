@@ -1,3 +1,6 @@
+let submitButton = document.getElementById('submit-button');
+let nameInput = document.getElementById('name-input');
+let messageInput = document.getElementById('message-input');
 
 // validates if email is in the correct format
 function validateEmail (input) {
@@ -14,10 +17,9 @@ emailInput.addEventListener('input', function () {
     if  (!validateEmail(email)) {
         emailError.classList.remove('hidden');
     } else {
-        emailError.classList.add('hidden');d
+        emailError.classList.add('hidden');
     }
 })
-
 
 //validates if phone number is in the correct format (+995)xxxxxxxxx
 function validatePattern (input) {
@@ -57,6 +59,17 @@ subjectInput.addEventListener('input', function() {
         subjectError.classList.add('hidden');
     }
  });
+
+
+
+ submitButton.addEventListener('click', function (event) {
+    if (validateEmail(emailInput.value) && validatePattern(phoneInput.value) && validateSubject(subjectInput.value)) {
+    alert(`Email: ${emailInput.value}\nName: ${nameInput.value}\nPhone: ${phoneInput.value}\nSubcject: ${subjectInput.value}\nMessage: ${messageInput.value}`);
+    } else { 
+        event.preventDefault();
+    }
+ })
+
 
 
  

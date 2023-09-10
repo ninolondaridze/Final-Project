@@ -205,6 +205,7 @@
     #form {
         width: 350px;
         padding: 0;
+        padding-top: 10px;
     }
 
     .contact-form-background-blue,
@@ -227,6 +228,7 @@
         flex-direction: column;
         gap: 15px;
         align-items: center;
+        justify-content: center;
     }
 
     .input-item.email {
@@ -234,7 +236,24 @@
     }
 
     .input-item {
-        width: 100%
+        width: 300px;
     }
    
+    .footer-box {
+        display: grid;
+        grid-template-columns: auto;
+        height: 750px;
+        row-gap: 20px;
+        justify-content: center;
+        margin-top: 10px;
+    }
+
+    #footer-end {
+        flex-direction: column;
+        height: 100px;
+        justify-content: center;
+        gap: 10px;
+    }
+
+
 }
