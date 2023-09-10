@@ -1,5 +1,4 @@
 #form {
-    width: 619px;
     padding: 50px;
     border-radius: 10px;
     border: 1px solid  #909DE2;
@@ -7,6 +6,7 @@
     display: flex;
     flex-direction: column;
     gap: 20px;
+    width: 700px;
 }
 
 #form h1 {
@@ -30,16 +30,15 @@ form {
     display: flex;
     align-items: flex-start;
     gap: 23px;
-    align-self: stretch;
-    justify-content: space-between;
 }
 
 .input-field-one {
     height: 22px;
+    display: flex;
     padding: 15px 1px 15px 10px;
     border-radius: 5px;
     border: 1px solid #909DE2;
-
+    width: 100%;
 }
 
 .input-field-one-container {

@@ -11,6 +11,7 @@
         <link rel="stylesheet" href="styles/form.css">
         <link rel="stylesheet" href="styles/footer.css">
         <link rel="stylesheet" href="styles/hovers.css">
+        <link rel="stylesheet" href="styles/mobile.css">
     </head>
     <body>
         <header>
@@ -44,7 +45,7 @@
                         <img src="images/logo.svg" alt="">
                     </div>
                     <div class="navigation-bar">
-                        <div>
+                        <div id="nav-drop-down">
                             <nav>
                                 <a href="">Home</a>
                                 <a href="#about">About</a>
@@ -83,7 +84,7 @@
                             <h1 class="header-text">Your Financial Status Is Our Goal</h1>
                         </div>
                         <div>
-                            <button class="explore-button">Explore More</button>
+                            <button class="explore-button flex">Explore More</button>
                         </div>
                     </div> 
     
@@ -132,7 +133,7 @@
                             <img class="grey-line" id="story-horizontal-line" src="images/line.svg" alt="">
                             <img class="grey-line" id="mission-horizontal-line" src="images/line.svg" alt="">
                             <img class="grey-line" id="vission-horizontal-line" src="images/line.svg" alt="">
-                            <img class="grey-line" src="images/line.svg" alt="">
+                            <img class="grey-line fourth-grey-line" src="images/line.svg" alt="">
                         </div>
                         <div id="story-container">
                             <p id="section-one">
@@ -209,7 +210,7 @@
                         <div>
                             <h1 class="choosing-header">Few Reasons Why People Choosing Us!</h1>
                         </div>
-                        <div>
+                        <div class="choosing-text-container">
                             <p class="choosing-text">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo magna dolore erat amet</p>
                         </div>
                         <div>
@@ -318,26 +319,26 @@
                 </div>
                     <form action="" id="form">
                         <div class="input-type-one">
-                            <div class="flex-column" >
+                            <div class="input-item" >
                                 <input class="input-field-one" placeholder="Your Name" type="text" name="" id="name-input">
                                 <div class="error hidden"></div>
                             </div>
-                            <div class="flex-column">
+                            <div class="input-item email">
                                 <input id="email-input" class="input-field-one" placeholder="Your Email" type="email" name="">
                                 <div  id="email-error" class="error hidden">Please Enter Valid Email.</div>
                             </div>
                         </div>
                         <div class="input-type-one">
-                            <div class="flex-column">
+                            <div class="input-item">
                                 <input id="phone-input" class="input-field-one" placeholder="Your Phone" type="text" name="phone" >
                                 <div id="phone-error" class="error hidden">Please Enter Valid Phone Number.</div>
                             </div>
-                            <div class="flex-column">
+                            <div class="input-item">
                                 <input id="subject-input" class="input-field-one" placeholder="Your Subject" type="text" name="">
                                 <div id="subject-error" class="error hidden">Please Enter Valid Subject.</div>
                             </div>
                         </div>
-                        <div class="flex-column">
+                        <div>
                             <input class="input-field-two" placeholder="Message" type="text">
                             <div class="error hidden"></div>
                         </div>

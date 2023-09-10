@@ -1,0 +1,240 @@
+@media only screen and (max-width: 600px) {
+    header {
+        height: 500px;
+        background-size: cover;
+        position: relative;
+        margin-bottom: 10px;
+    }
+    
+    .header-top {
+        display: none;
+    }
+
+    .menu {
+        margin-top: 0;
+        margin-bottom: 0;
+        background-color: rgb(215, 193, 235);
+    }
+
+    .navigation-bar {
+        display: none;
+    }
+
+    .logo-container {
+        display: none;
+    }
+
+    .finanza-logo img {
+        height: 70px;
+        width: 80px;
+    }
+
+    .header-text {
+        font-size: 20px;
+        line-height: 30px;
+        width: 250px;
+    }
+
+    .header-left {
+        margin-left: 45px;
+        gap: 15px;
+        margin-top: 10px;
+    }
+
+    .header-middle {
+        height: 400px;
+        position: relative;
+        align-items: flex-start;
+
+    }
+    .slider-image {
+        width: 400px;
+        height: 300px;
+        position: absolute;
+        bottom: 0;
+        z-index: 1;
+    }
+
+    .slider-button-right {
+        position: absolute;
+        top: calc(20%);
+        
+    }
+
+    .slider-button-left {
+        position: absolute;
+        top: calc(20%);
+    }
+
+
+    .slider-button-right img,
+    .slider-button-left img {
+        height: 30px;
+        width: 40px
+    }
+ 
+    .welcome-button,
+    .explore-button,
+    .about-button,
+    .choosing-button,
+    .get-in-touch-button {
+        font-size: 14px;
+        line-height: 15px;
+        padding: 7px;  
+    }
+
+    .about-photo {
+        display: none;
+    }
+
+    .about-container {
+        gap: 0;
+        width: 100%;
+        margin: 0;
+    }
+
+    .about-description {
+        font-size: 20px;
+        line-height: 30px;
+        flex-wrap: wrap;
+        display: flex;
+    }
+
+    .about-text {
+        flex-wrap: wrap;
+        display: flex;
+        width: 400px;  
+    }
+
+    .fourth-grey-line {
+        display: none;
+    }
+
+    #story-container {
+        width: 400px; 
+    }
+
+    .service-items-main-container {
+        display: grid;
+        margin-bottom: 10px;
+    }
+
+    .service-items.line {
+       border: none;
+       border-bottom: 1px solid #909DE2;
+       padding: 2px;
+    }
+
+    .achieved-milestones {
+        display: grid;
+        grid-template-columns: auto auto;
+        column-gap: 20px;
+        row-gap: 20px;
+        justify-content: center;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    .reasons-container {
+        margin-top: 10px;
+        flex-direction: column;
+    }
+
+    .services-choosing {
+        width: 400px;
+        gap: 10px;
+        margin-top: 10px;
+        align-items: center;
+    }
+    .choosing-header {
+        font-size: 22px;
+        line-height: 58px;
+        align-self: stretch;
+        margin: 0;
+    }
+
+    .choosing-text-container {
+        margin-left: 5px;
+    }
+
+    .card-container {
+        margin-top: 10px;
+    }
+
+    .card {
+        width: 220px;
+        height: 200px;
+        padding: 20px;
+    }
+
+    #card-three {
+        margin-top: 24px;
+    }
+
+    #services {
+        margin-top: 20px;
+
+    }
+
+    .services-image {
+        display: none;
+    }
+
+    .services-heading {
+        font-size: 22px;
+        line-height: 40px ;
+        width: 350px;
+    }
+
+    .financial-planning-main {
+        justify-content: center;
+        gap: 25px;
+    }
+
+    .services-main {
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+    }
+
+    .background-container {
+        height: 350px;
+        gap: 25px;
+    }
+
+    #form {
+        width: 350px;
+        padding: 0;
+    }
+
+    .contact-form-background-blue,
+    .contact-form-background-white {
+        height: 200px;
+    }
+
+    .contact-form-container {
+        height: 600px;
+    }
+
+    .form-intro h1 {
+        font-size: 22px;
+    }
+
+    .form-intro {
+        gap: 10px;
+    }
+    .input-type-one {
+        flex-direction: column;
+        gap: 15px;
+        align-items: center;
+    }
+
+    .input-item.email {
+        margin: 0;
+    }
+
+    .input-item {
+        width: 100%
+    }
+   
+}
