@@ -31,3 +31,20 @@
 #submit-button:hover {
     cursor: pointer;
 }
+
+.services-button:hover,
+.about-button:hover {
+    padding: 12px 17px;
+}
+
+.footer-box button:hover {
+    cursor: pointer;
+    border: 1px solid #FFF;
+    color: #355EFC;
+    background: none;
+    border: 1px solid #355EFC
+}
+
+.services-list:hover {
+    cursor: pointer;
+}
